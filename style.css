@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7e9dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+}
+header {
+  background-color: #ec755d;
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 20px;
+}
+.TextosHeader h1 {
+  font-size: 13px;
+}
+
+.TextosHeader h2 {
+  margin-top: 15px;
+}
+.title{
+  color: #4b392b;
+}
+
+.balance {
+  color: #fcf8ef;
+}
+
+main {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #fffcf7;
+  height: 394px;
+  width: 400px;
+  padding: 20px;
+}
+
+.grafico {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f3ece2;
+}
+
+.Bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.widthBars {
+  width: 40px;
+  border-radius: 5px;
+}
+.barsHeight1 {
+  height: 40px;
+  background-color: #ec755d;
+}
+.barsHeight2 {
+  height: 90px;
+  background-color: #ec755d;
+}
+.barsHeight3 {
+  height: 120px;
+  background-color: #76b5bc;
+}
+
+.barsHeight4 {
+  height: 80px;
+  background-color: #ec755d;
+}
+.barsHeight5 {
+  height: 50px;
+  background-color: #ec755d;
+}
+.barsHeight6 {
+  height: 100px;
+  background-color: #ec755d;
+}
+.barsHeight7 {
+  height: 50px;
+  background-color: #ec755d;
+}
+
+.color {
+  color: #8c8783;
+}
+.footerPrincipal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 30px;
+}
+.footer h1 {
+  color: #ada69e;
+  font-size: 20px;
+}
+.footer h2 {
+  font-size: 35px;
+  margin-top: 5px;
+  color: #59453a;
+}
+.footer2 {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.footer2 h1 {
+  color: #59453a;
+}
+.footer2 h2 {
+  color: #ada69e;
+}
+.valores {
+  display: flex;
+  height: 0px;
+}
+.text1 {
+  font-size: 13px;
+  padding: 10px;
+  background-color: #392617;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 5px;
+  visibility: hidden;
+}
+.days {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #a59e96;
+}
+
+.grafico .orange:hover {
+  background-color: #ff9b87;
+}
+
+.Bar:hover .text1 {
+  visibility: visible;
+}
+.grafico .graf1:hover{
+  background-color: #b4dfe5;
+}
